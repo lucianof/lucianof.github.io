@@ -119,7 +119,7 @@ p {
 }
 
 .photos {
-	overflow: hidden;
+	/*overflow: hidden;*/
 }
 
 .photos img {
