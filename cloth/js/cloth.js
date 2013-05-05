@@ -1,6 +1,5 @@
 $(document).ready(function () {	
-
-	$('.carousel').carousel({
-		interval: 10
+	$('.slideshow').cycle({
+		fx: 'fade'
 	});
 });

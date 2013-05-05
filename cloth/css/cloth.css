@@ -6,31 +6,56 @@ p {
 	text-align:justify;
 }
 
-#header {
-	background-color: #FFFFFF;
-	background-image: url('../img/header_bg.png');
-	background-repeat: no-repeat;
+#header_bg {
+	position: absolute;
+	z-index:-2;
+	width: 100%;
 	height: 31px;
+	background-color: #FF7F43;
+}
+
+.hearts_bg {
+	position: absolute;
+	background-image: url('../img/bg.png');
+	background-repeat: repeat;
+	z-index: -1;
+	right: 0px;
+	width: 50%;
+	height: inherit;
+}
+
+#header {
+	height: 31px;
+	background-color: #FF6613;
 	color: #FFFFFF;
+	position: relative;
+}
+
+#header > div {
+	height: inherit;
 }
 
 .logotype {
-	font-size: 25px;
-	margin: 7px 0;
+	position: absolute;
+	left: 0px;
+	display: inline-block;
+	border-right: 5px solid white;
 }
 
-#topnav {
-	margin-left: 485px;
+.toolbar {
+	position: absolute;
+	right: 0px;
 	background-color: #823939;
-	width: 258px;
-	height: 31px;
+	border-left: 5px solid white;
+	border-right: 5px solid white;
+	width: 308px;
 }
 
-#topnav div, #topnav > a {
+.toolbar > div, .toolbar > a {
 	display: block;
 	float: left;
-	height: 31px;
-	margin-left:6px;
+	height: inherit;
+	margin-left:10px;
 }
 
 #donate{
@@ -57,7 +82,8 @@ p {
 
 #language {
 	color: #FFFFFF;
-	font-size: 9px;
+	font-size: 11px;
+	padding: 7px 0 0 10px;
 }
 #language a {
 	color: #FFFFFF;
@@ -92,12 +118,21 @@ p {
 	border-top: 2px solid #FF7D4B;
 }
 
+.photos {
+	overflow: hidden;
+}
+
+.photos > img {
+	max-width: none;
+}
+
 .columnleft div {
 	margin-top: 30px;
 }
 
 #footer {
 	background-color: #FDEACC;
+	border-top: 2px solid #FF7D4B;
 	text-align: center;
 	font-size: 12px;
 	padding: 10px;
