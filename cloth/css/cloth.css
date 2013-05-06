@@ -60,24 +60,24 @@ p {
 
 #donate{
 	width: 81px;
-	background: url('../img/btn_donate.png');
+	background: url('../img/btn_donate.jpg');
 }
 #donate:hover {
-	background: url('../img/btn_donate_rollover.png');
+	background: url('../img/btn_donate_rollover.jpg');
 }
 #youtube{
 	width: 31px;
-	background: url('../img/btn_youtube.png');
+	background: url('../img/btn_youtube.jpg');
 }
 #youtube:hover {
-	background: url('../img/btn_youtube_rollover.png');
+	background: url('../img/btn_youtube_rollover.jpg');
 }
 #facebook{
 	width: 31px;
-	background: url('../img/btn_facebook.png');
+	background: url('../img/btn_facebook.jpg');
 }
 #facebook:hover {
-	background: url('../img/btn_facebook_rollover.png');
+	background: url('../img/btn_facebook_rollover.jpg');
 }
 
 #language {
