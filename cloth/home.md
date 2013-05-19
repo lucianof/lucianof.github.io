@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: clothdefault
 ---
 
 # My site title

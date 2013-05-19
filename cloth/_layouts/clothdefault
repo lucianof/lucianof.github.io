@@ -4,7 +4,7 @@
 	<meta charset="utf-8">
 	<link rel="shortcut icon" href="favicon.ico">
 	<title>
-		Cloth - Community League of the Heights
+		{{ page.title}} - Cloth - Community League of the Heights
 	</title>
 	<!--<meta name="viewport" content="width=device-width, initial-scale=1.0">-->
 	<link href="css/bootstrap.css" rel="stylesheet" media="screen">
@@ -93,10 +93,7 @@
 		<div class="row" id="content">
 			<div class="span3 columnleft">
 				<div>
-					<h1>CLOTH</h1>
-					<p>Since 1952, the Community League of the Heights - CLOTH has been dedicated to the improvement of the Southern Washington Heights area. Our mission encompasses advocacy, organizing, and providing of services related to decent affordable housing, education, health, youth services, and neighborhood improvement.</p>
-					<p>CLOTH's enduring philosophy remains:</p>
-					<p><em><strong>"Our doors are always open to neighbors in need."</strong></em></p>
+					{{ page.content }}
 				</div>
 			</div>
 			
