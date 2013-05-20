@@ -2,14 +2,14 @@
 <html lang="en">
   <head>
 	<meta charset="utf-8">
-	<link rel="shortcut icon" href="favicon.ico">
+	<link rel="shortcut icon" href="/favicon.ico">
 	<title>
-		Cloth - Community League of the Heights
+		{{ page.title }} - Community League of the Heights
 	</title>
 	<!--<meta name="viewport" content="width=device-width, initial-scale=1.0">-->
-	<link href="assets/css/bootstrap.css" rel="stylesheet" media="screen">
-	<!--<link href="assets/css/bootstrap-responsive.css" rel="stylesheet">-->
-	<link href="assets/css/cloth.css" rel="stylesheet">
+	<link href="/assets/css/bootstrap.css" rel="stylesheet" media="screen">
+	<!--<link href="css/bootstrap-responsive.css" rel="stylesheet">-->
+	<link href="/assets/css/cloth.css" rel="stylesheet">
 	<script type="text/javascript">
 		/*
 		var _gaq = _gaq || [];
@@ -26,19 +26,23 @@
   </head>
   <body>
 	<div id="header_bg">
-		<div class="hearts_bg">
+		<div class="hearts_bg"></div>
 	</div>
 	<div class="container">
 		<div class="row">
 			<div id="header" class="span12">
-				<div class="logotype"><img src="assets/img/logotype.png" alt="Community League Of The Heights"></div>
+				<div class="logotype"><a href="/"><img src="/assets/img/logotype.png" alt="Community League Of The Heights"></a></div>
 				<div class="toolbar">
-					<a id="donate" title="Donate"></a>
+					<form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+					<input type="hidden" name="cmd" value="_s-xclick">
+					<input type="hidden" name="hosted_button_id" value="6JL2H83ALD2AS">
+					<input id="donate" type="image" src="/assets/img/btn_donate.jpg" border="0" name="submit" alt="Donate via PayPal">
+					<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+					</form>
 					<a id="youtube" title="Youtube"></a>
-					<a id="facebook" title="Facebook"></a>
+					<a id="facebook" title="Facebook" href="https://www.facebook.com/pages/Community-League-of-the-Heights-Cloth/111001935601500"></a>
 					<div id="language">
 						<a href="#l=en" id="en" title="English">English</a>
-						|
 						<a href="#l=es" id="es" title="Spanish">Spanish</a>
 					</div>
 				</div>
@@ -46,44 +50,39 @@
 		</div>
 		<div class="row" id="navbar">
 			<div class="span3">
-				<a href="logo" id="logo">
-					<img src="assets/img/cloth_logo.png" alt="CLOTH">
+				<a href="/" id="logo">
+					<img src="/assets/img/cloth_logo.png" alt="CLOTH">
 				</a>
 			</div>
 			<div class="span9">
-				<ul id="nav" class="inline">
+				<ul id="nav" class="inline {{ page.category }}">
 					<li>
-						<a href="#">
+						<a href="/about.html" class="about">
 							About us
 						</a>
 					</li>
 					<li>
-						<a href="#">
+						<a href="/services.html" class="services">
 							Services
 						</a>
 					</li>
 					<li>
-						<a href="#">
-							Volunteer
-						</a>
-					</li>
-					<li>
-						<a href="#">
+						<a href="/partners.html" class="partners">
 							Partners
 						</a>
 					</li>
 					<li>
-						<a href="#">
+						<a href="/events.html" class="events">
 							Events
 						</a>
 					</li>
 					<li>
-						<a href="#">
+						<a href="/gallery.html" class="gallery">
 							Gallery
 						</a>
 					</li>
 					<li>
-						<a href="#">
+						<a href="/contact.html" class="contact">
 							Contact
 						</a>
 					</li>
@@ -91,23 +90,7 @@
 			</div>
 		</div>
 		<div class="row" id="content">
-			<div class="span3 columnleft">
-				<div>
-					{{ content }}
-				</div>
-			</div>
-			
-			
-			<div class="span9 photos">
-				<div class="slideshow">
-					<img src="assets/photos/building.jpg" alt=""/>
-					<img src="assets/photos/grads.jpg" alt=""/>
-					<img src="assets/photos/kids.jpg" alt=""/>
-					<img src="assets/photos/pantry.jpg" alt=""/>
-				</div>
-			</div>
-			
-			
+			{{ content }}
 		</div>
 	</div>
     
@@ -121,9 +104,9 @@
 	</div>
 	<div class="row" id="footer2">
 	</div>
-	<script src="http://code.jquery.com/jquery-1.8.3.min.js"></script>
-	<script src="assets/js/bootstrap.min.js"></script>
-	<script src="assets/js/jquery.cycle.all.latest.js"></script>
-	<script src="assets/js/cloth.js"></script>
+	<script src="/assets/js/jquery-1.8.3.min.js"></script>
+	<script src="/assets/js/bootstrap.min.js"></script>
+	<script src="/assets/js/jquery.cycle.all.latest.js"></script>
+	<script src="/assets/js/cloth.js"></script>
   </body>
 </html>

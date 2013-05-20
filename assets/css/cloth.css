@@ -2,7 +2,7 @@ body {
 	height:100%;
 }
 
-p {
+.columnleft p {
 	text-align:justify;
 }
 
@@ -64,7 +64,7 @@ p {
   }
 }
 
-.toolbar > div, .toolbar > a {
+.toolbar > div, .toolbar > a, .toolbar > form {
 	display: block;
 	float: left;
 	height: inherit;
@@ -135,6 +135,16 @@ p {
 	text-decoration:none;
 }
 #nav a:hover {
+	color: #FB4F11;
+}
+
+#nav.home a.home,
+#nav.about a.about,
+#nav.services a.services,
+#nav.partners a.partners,
+#nav.events a.events,
+#nav.gallery a.gallery,
+#nav.contact a.contact {
 	color: #FB4F11;
 }
 
