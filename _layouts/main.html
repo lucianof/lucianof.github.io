@@ -6,13 +6,13 @@
 	<title>
 		{{ page.title }} - Community League of the Heights
 	</title>
-	<!--<meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link href="/assets/css/bootstrap.custom2.css" rel="stylesheet" media="screen">
 	<link href="/assets/css/cloth.css" rel="stylesheet">
 	<script type="text/javascript">
 		/*
 		var _gaq = _gaq || [];
-		_gaq.push(['_setAccount', 'UA-XXX-X']);
+		_gaq.push(['_setAccount', '{{ site.google_analytics_key }}']);
 		_gaq.push(['_trackPageview']);
 		
 		(function() {
@@ -43,10 +43,10 @@
 					<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
 					</form>
 					<a id="youtube" title="Youtube"></a>
-					<a id="facebook" title="Facebook" href="https://www.facebook.com/pages/Community-League-of-the-Heights-Cloth/111001935601500"></a>
+					<a id="facebook" title="Facebook" href="{{ site.facebook_url}}"></a>
 					<div id="language">
-						<a href="#l=en" id="en" title="English">English</a>
-						<a href="#l=es" id="es" title="Spanish">Spanish</a>
+						<a href="{{ page.link_en }}" id="en" title="English">English</a>
+						<a href="{{ page.link_es }}" id="es" title="Spanish">Spanish</a>
 					</div>
 				</div>
 			</div>
