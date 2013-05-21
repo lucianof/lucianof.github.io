@@ -11,9 +11,12 @@ aside: |
 
 ---
 
-<div class="slideshow">
-	<img src="assets/photos/building.jpg" alt=""/>
-	<img src="assets/photos/grads.jpg" alt=""/>
-	<img src="assets/photos/kids.jpg" alt=""/>
-	<img src="assets/photos/pantry.jpg" alt=""/>
+<div class="slideshow" style="height:396px">
+	<img src="/assets/photos/building.jpg" alt=""/>
+	<img src="/assets/photos/festivalbanner.jpg" alt=""/>
+	<img src="/assets/photos/grads.jpg" alt=""/>
+	<img src="/assets/photos/kids.jpg" alt=""/>
+	<img src="/assets/photos/pantry.jpg" alt=""/>
+	<img src="/assets/photos/festivalkid.jpg" alt=""/>
+	<img src="/assets/photos/techcenter.jpg" alt=""/>
 </div>

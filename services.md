@@ -3,7 +3,7 @@
 layout: services
 title: Services
 category: services
-top_image: assets/img/streetsign.jpg
+top_image: assets/img/houses.jpg
 
 ---
 

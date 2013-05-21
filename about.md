@@ -3,13 +3,13 @@ layout: page
 category: about
 title: About us
 aside: |
- <a href="assets/pdf/brochure.pdf" class="download pdf">Download Brochure</a>
-aside_image: assets/img/streetsign.jpg
-top_image: assets/img/streetsign.jpg
+ <a href="assets/pdf/brochure.pdf" class="download pdf">Download Brochure [PDF]</a>
+aside_image: assets/img/ms_lucille_bulger.jpg
+top_image: assets/img/houses.jpg
 
 ---
 
-## HISTORY
+### History
 
 The Community League of the Heights (CLOTH) was incorporated in January of 1952 by Lucille Bulger. A strong advocate for the education and welfare of children, Ms. Bulger and other parents on 159th Street recognized the need for recreational and educational resources available to youth in the neighborhood.
 
@@ -19,11 +19,11 @@ From this effort CLOTH began to provide a volunteer-run, educational after schoo
 
 Since its inception, CLOTH has grown from a volunteer agency to a multi-faceted organization. CLOTH addresses a wide range of community needs, including affordable housing, economic development, health education, and after school and summer programs.
 
-## Board of Directors
-- J. Loren Russell, President
-- Leo Baez, Vice President
-- Devaughn D. Fowlkes, Treasurer
-- Vivian Weeks, Asst. Treasurer
+### Board of Directors
+- J. Loren Russell, *President*
+- Leo Baez, *Vice President*
+- Devaughn D. Fowlkes, *Treasurer*
+- Vivian Weeks, *Asst. Treasurer*
 - Ruth C. Johnson
 - Joanne Toran
 - Gregory Sumpter

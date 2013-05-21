@@ -2,7 +2,7 @@
 layout: services
 title: Food Pantry
 category: services
-top_image: /assets/img/streetsign.jpg
+top_image: /assets/img/cans.jpg
 
 ---
 

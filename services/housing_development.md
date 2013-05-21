@@ -2,7 +2,7 @@
 layout: services
 title: Housing Development
 category: services
-top_image: /assets/img/streetsign.jpg
+top_image: /assets/img/houses.jpg
 
 ---
 

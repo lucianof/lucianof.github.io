@@ -2,7 +2,7 @@
 layout: services
 title: Heiskell Community Technology Center
 category: services
-top_image: /assets/img/streetsign.jpg
+top_image: /assets/img/houses.jpg
 
 ---
 

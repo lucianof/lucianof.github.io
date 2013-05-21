@@ -7,8 +7,7 @@
 		{{ page.title }} - Community League of the Heights
 	</title>
 	<!--<meta name="viewport" content="width=device-width, initial-scale=1.0">-->
-	<link href="/assets/css/bootstrap.css" rel="stylesheet" media="screen">
-	<!--<link href="css/bootstrap-responsive.css" rel="stylesheet">-->
+	<link href="/assets/css/bootstrap.custom2.css" rel="stylesheet" media="screen">
 	<link href="/assets/css/cloth.css" rel="stylesheet">
 	<script type="text/javascript">
 		/*
@@ -26,13 +25,17 @@
   </head>
   <body>
 	<div id="header_bg">
-		<div class="hearts_bg"></div>
+		<div id="header_bg2"></div>
 	</div>
 	<div class="container">
 		<div class="row">
-			<div id="header" class="span12">
-				<div class="logotype"><a href="/"><img src="/assets/img/logotype.png" alt="Community League Of The Heights"></a></div>
-				<div class="toolbar">
+			<div class="span7" id="header">
+				<div id="logotype">
+					<a href="/">
+						<img src="/assets/img/logotype.gif" alt="Community League Of The Heights">
+					</a>
+				</div>
+				<div id="toolbar">
 					<form action="https://www.paypal.com/cgi-bin/webscr" method="post">
 					<input type="hidden" name="cmd" value="_s-xclick">
 					<input type="hidden" name="hosted_button_id" value="6JL2H83ALD2AS">
@@ -49,12 +52,12 @@
 			</div>
 		</div>
 		<div class="row" id="navbar">
-			<div class="span3">
+			<div class="span2">
 				<a href="/" id="logo">
 					<img src="/assets/img/cloth_logo.png" alt="CLOTH">
 				</a>
 			</div>
-			<div class="span9">
+			<div class="span5">
 				<ul id="nav" class="inline {{ page.category }}">
 					<li>
 						<a href="/about.html" class="about">
@@ -89,7 +92,7 @@
 				</ul>
 			</div>
 		</div>
-		<div class="row" id="content">
+		<div class="row {{ page.category }}" id="content">
 			{{ content }}
 		</div>
 	</div>

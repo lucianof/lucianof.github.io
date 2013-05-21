@@ -2,7 +2,7 @@
 layout: services
 title: The Community Health Academy of the Heights (C.H.A.H.)
 category: services
-top_image: /assets/img/streetsign.jpg
+top_image: /assets/img/houses.jpg
 
 ---
 
