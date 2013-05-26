@@ -2,7 +2,7 @@
 layout: main
 ---
 
-<div class="span2 left{% if page.aside_image %} bottomimage" style="background-image: url('{{ page.aside_image }}'){% endif %}">
+<div class="span left{% if page.aside_image %} bottomimage" style="background-image: url('{{ page.aside_image }}'){% endif %}">
 	<div>
 		<h1>{{ page.title }}</h1>
 		{% if page.aside %}
@@ -10,7 +10,7 @@ layout: main
 		{% endif %}
 	</div>
 </div>
-<div class="span5 right{% if page.top_image %} topimage" style="background-image: url('{{ page.top_image }}'){% endif %}">
+<div class="span right{% if page.top_image %} topimage" style="background-image: url('{{ page.top_image }}'){% endif %}">
 	<div>
 		{{ content }}
 	</div>

@@ -2,8 +2,47 @@ body {
 	height:100%;
 }
 
-h1{
+h1, h2, h3, h4, h5{
 	text-transform: uppercase;
+	margin: 20px 0 5px 0;
+}
+#content .span5 h1{
+	background-color: #F28143;
+	color: #000000;
+	margin: 0px;
+	border-bottom: 5px solid white;
+	padding: 10px 0 10px 5px;
+}
+#content .span5{
+	margin-left: 0px;
+	width: 100%;
+}
+
+.left {
+	width: 306px;
+	margin-left: 0px;
+}
+.right {
+	width: 649px;
+}
+@media (min-width: 1200px) {
+	.right {
+		width: 889px;
+	}
+}
+@media (min-width: 768px) and (max-width: 979px) {
+	.right {
+		width: 454px;
+	}
+}
+@media (max-width: 767px) {
+	.right,
+	.left {
+		width: 100%;
+	}
+	.left {
+		border-bottom: 5px solid white;
+	}
 }
 
 /*************************************
@@ -65,11 +104,12 @@ h1{
   #logotype {
 	display:none;
   }
-  #header {
-	border-right: 5px solid white;
+  #header, #header_bg, #header_bg2 {
+	/*border-right: 5px solid white;*/
+	background: #330d0c;
   }
   #toolbar {
-	left:0px;
+	border: none;
   }
 }
 
@@ -126,6 +166,7 @@ h1{
 **************************************/
 #navbar {
 	background-color: #FFFFFF;
+	border-bottom: 2px solid #FF6612;
 }
 
 #logo {
@@ -157,17 +198,24 @@ h1{
 #nav.events a.events,
 #nav.gallery a.gallery,
 #nav.contact a.contact {
-	color: #FB4F11;
+	color: #FF6612;
 }
 
 /*************************************
 ** CONTENT
 **************************************/
 #content {
-	background-color: #FAF8F9;
-	background-color: #FCE5BF;
-	border-top: 2px solid #FB4F11;
-	position: relative;
+	border-top: 5px solid white;
+}
+
+#content .left {
+	background-color: #F28143;
+	color: #000000;
+}
+
+#content .left > div,
+#content .right > div {
+	padding: 5px 25px 15px 25px;
 }
 
 #content a {
@@ -179,25 +227,9 @@ h1{
 	margin: 0;
 }
 
-#content .left > div,
-#content .right > div {
-	padding: 15px 25px;
-}
-
 #content .left p {
 	text-align:justify;
 	margin-top: 15px;
-}
-
-#content .left {
-	position: relative;
-	box-shadow: 8px 0px 8px -1px #999;
-	background-color: rgb(247, 211, 153);
-}
-@media (max-width: 767px) {
-  #content .left {
-	box-shadow: none;
-  }
 }
 
 #content .topimage {
@@ -213,20 +245,21 @@ h1{
 }
 @media (max-width: 767px) {
   #content .bottomimage {
-    background: none !important;
+    background-image: none !important;
 	padding-bottom: 15px;
-	box-shadow: none;
   }
 }
 
 /*************************************
 ** HOME PAGE
 **************************************/
-.photos {
+#content.home .right {
 	overflow: hidden;
 }
-
-.photos img {
+#content.home .right .slideshow {
+	padding: 0px;
+}
+#content.home .right img {
 	max-width: none;
 }
 
@@ -238,6 +271,27 @@ h1{
 	text-transform: uppercase;
 	font-weight: bold;
 }
+#content.services .right h4 {
+}
+#content.services .right address {
+	font-weight: bold;
+	text-transform: uppercase;
+	border-left: 5px solid #ff6612;
+	padding-left: 10px;
+}
+
+
+#content.services .right table {
+	margin-bottom: 5px;
+	border-left: 5px solid #ff6612;
+}
+#content.services .right td {
+	padding: 3px 10px;
+}
+#content.services .right td:first-child {
+	font-weight: bold;
+	text-transform: uppercase;
+}
 
 /*************************************
 ** PARTNERS PAGE
@@ -245,11 +299,18 @@ h1{
 #content.partners .right li {
 	margin-top: 10px;
 }
-
 #content.partners .right a {
 	text-transform: uppercase;
 	color: #185E46;
 	font-weight: bold;
+}
+
+/*************************************
+** GALLERY PAGE
+**************************************/
+#content.gallery .right > div {
+	padding: 0;
+	margin-bottom:-5px;
 }
 
 /*************************************
@@ -277,6 +338,7 @@ h1{
 }
 #content.contact table td{
 	padding: 2px 3px;
+	vertical-align: top;
 }
 
 /*************************************
@@ -284,7 +346,8 @@ h1{
 **************************************/
 #footer {
 	background-color: #FDEACC;
-	border-top: 2px solid #FB4F11;
+	margin-top: 5px;
+	border-top: 2px solid #FF6612;
 	text-align: center;
 	font-size: 12px;
 	padding: 10px;

@@ -14,16 +14,18 @@ Due to the increasing number of people seeking hunger relief and the limited qua
 
 To participate in our food pantry, we require photo ID. 
  
-### Location:
-> 508 West 159th Street   
-> New York, NY 10032
- 
-###Hours:
+#### Location
+<address>
+	508 West 159th Street<br>   
+	New York, NY 10032
+</address>
 
->|        |           |
->|:----------|:---------------|
->| Wednesday | 8am-10:30am    |
->| Saturday  | 8:30am-10:30am |
+#### Hours
+
+|           |                |
+|:----------|:---------------|
+| Wednesday | 8am-10:30am    |
+| Saturday  | 8:30am-10:30am |
 
 *Hours vary depending on food availability, so come early!*
 

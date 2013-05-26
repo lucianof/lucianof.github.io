@@ -7,7 +7,7 @@
 		{{ page.title }} - Community League of the Heights
 	</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link href="/assets/css/bootstrap.custom2.css" rel="stylesheet" media="screen">
+	<link href="/assets/css/bootstrap.custom3.min.css" rel="stylesheet" media="screen">
 	<link href="/assets/css/cloth.css" rel="stylesheet">
 	<script type="text/javascript">
 		/*
@@ -29,7 +29,7 @@
 	</div>
 	<div class="container">
 		<div class="row">
-			<div class="span7" id="header">
+			<div class="span5" id="header">
 				<div id="logotype">
 					<a href="/{{ site.index[page.language].url }}">
 						<img src="/assets/img/logotype.gif" alt="Community League Of The Heights">
@@ -51,13 +51,13 @@
 				</div>
 			</div>
 		</div>
-		<div class="row" id="navbar">
-			<div class="span2">
+		<div class="row {{ page.category }}" id="navbar">
+			<div class="span left">
 				<a href="/{{ site.index[page.language].url }}" id="logo">
 					<img src="/assets/img/cloth_logo.png" alt="{{ site.index[page.language].title }}">
 				</a>
 			</div>
-			<div class="span5">
+			<div class="span right">
 				<ul id="nav" class="inline {{ page.category }}">
 					{% for sort_order in (1..10) %}{% for p in site.pages %}{% if p.sort_order == sort_order %}
 						{% if p.language == page.language and p.parent == nil %}

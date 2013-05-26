@@ -14,15 +14,18 @@ Debido al gran crecimiento en el número de personas que necesitan nuestra ayuda
 
 Para participar en la Despensa de Comida, requerimos una identificación con foto.
 
-### Lugar:
-> 508 West 159th Street   
-> New York, NY 10032
+#### Lugar
+<address>
+	508 West 159th Street<br>   
+	New York, NY 10032
+</address>
  
-###Horario:
->|           |                |
->|:----------|:---------------|
->| Miércoles | 8am-10:30am    |
->| Sábados   | 8:30am-10:30am |
+####Horario
+
+|           |                |
+|:----------|:---------------|
+| Miércoles | 8am-10:30am    |
+| Sábados   | 8:30am-10:30am |
 
 *Las horas varían de acuerdo  a la comida disponible, así que venga temprano!*
 
