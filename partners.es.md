@@ -3,9 +3,9 @@ layout: page
 category: partners
 sort_order: 3
 title: Partners
-language: en
-es:
- url: /partners.es.html
+language: es
+en:
+ url: /partners.html
 aside:
 aside_image: /assets/photos/techcenter.jpg
 top_image: /assets/img/houses.jpg

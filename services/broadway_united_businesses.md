@@ -1,9 +1,11 @@
 ---
 layout: services
+parent: services
 title: Broadway United Businesses (BUB)
-category: services
+language: en
+es:
+ url: /services/broadway_united_businesses.es.html
 top_image: /assets/img/houses.jpg
-
 ---
 
 As part of CLOTH's commitment to maintain and sustain vital partnerships 

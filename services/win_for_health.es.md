@@ -2,9 +2,9 @@
 layout: services
 parent: services
 title: WIN for Health Program
-language: en
-es:
- url: /services/win_for_health.es.html
+language: es
+en:
+ url: /services/win_for_health.html
 top_image: /assets/img/houses.jpg
 ---
 

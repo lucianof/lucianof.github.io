@@ -1,35 +1,21 @@
 ---
 layout: main
+category: services
 ---
 
 <div class="span2 left{% if page.aside_image %} bottomimage" style="background-image: url('{{ page.aside_image }}'){% endif %}">
 	<div>
-		<h1>Services</h1>
+		<h1>{% if page.language == 'es' %}Servicios{% else %}Services{% endif %}</h1>
 		<ul>
-			<li>
-				<a href="/services/after_school.html">After School Program</a>
-			</li>
-			<li>
-				<a href="/services/broadway_united_businesses.html">Broadway United Businesses</a>
-			</li>
-			<li>
-				<a href="/services/chah.html">C.H.A.H. - Community Health Academy of the Heights</a>
-			</li>
-			<li>
-				<a href="/services/food_pantry.html">Food Pantry</a>
-			</li>
-			<li>
-				<a href="/services/freshmen_leadership.html">Freshmen Leadership Initiative Program</a>
-			</li>
-			<li>
-				<a href="/services/housing_development.html">Housing Development</a>
-			</li>
-			<li>
-				<a href="/services/technology_center.html">Heiskell Community Technology Center</a>
-			</li>
-			<li>
-				<a href="/services/win_for_health.html">WIN for Health Program</a>
-			</li>
+			{% for p in site.pages %}
+				{% if p.language == page.language and p.parent == 'services' %}
+				<li>
+					<a href="{{ p.url }}">
+						{{ p.title }}
+					</a>
+				</li>
+				{% endif %}
+			{% endfor %}
 		</ul>
 	</div>
 </div>

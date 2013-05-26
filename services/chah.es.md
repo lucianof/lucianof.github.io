@@ -2,9 +2,9 @@
 layout: services
 parent: services
 title: The Community Health Academy of the Heights (C.H.A.H.)
-language: en
-es:
- url: /services/chah.es.html
+language: es
+en:
+ url: /services/chah.html
 top_image: /assets/img/houses.jpg
 ---
 

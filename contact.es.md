@@ -2,10 +2,10 @@
 layout: page
 category: contact
 sort_order: 6
-title: Contact
-language: en
-es:
- url: /contact.es.html
+title: Contacto
+language: es
+en:
+ url: /contact.html
 aside: |
  <address>
   <strong>Community League of the Heights</strong><br>

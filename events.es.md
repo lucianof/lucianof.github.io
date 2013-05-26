@@ -2,10 +2,10 @@
 layout: page
 category: events
 sort_order: 4
-title: Events
-language: en
-es:
- url: /events.es.html
+title: Eventos
+language: es
+en:
+ url: /events.html
 aside:
 aside_image: assets/photos/festivalbanner.jpg
 

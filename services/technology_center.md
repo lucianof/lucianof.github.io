@@ -1,9 +1,11 @@
 ---
 layout: services
+parent: services
 title: Heiskell Community Technology Center
-category: services
+language: en
+es:
+ url: /services/technology_center.es.html
 top_image: /assets/img/houses.jpg
-
 ---
 
 The mission of CLOTH Technology Center is to provide FREE access to state-of-the-art computer technology and FREE training to the residents of Southern Washington Heights and surrounding neighborhoods. Classes range from bilingual Spanish/English technology programs to ESL classes and afterschool programs for children. The Tech Center offers help with resume writing and job search. It sponsors a program leading to certification as a home health aide. The presence of the Heiskell Community Technology Center in Washington Heights is a great opportunity for community residents to enhance their computer skills to access employment opportunities and to enrich their lives.
@@ -29,7 +31,6 @@ Contact us at 212-543-1502 or visit us at the Technology Center.
 
 ### Technology Center Staff
 
-|        |        |
-|:------:|:------:|
-| Daniel Mercado | Cynthia Almánzar |
-| Director | Administrative Assistant |
+Daniel Mercado, *Director*
+
+Cynthia Almánzar, *Administrative Assistant*

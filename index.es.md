@@ -1,9 +1,9 @@
 ---
 layout: home
 title: CLOTH
-language: en
-es:
- url: /index.es.html
+language: es
+en:
+ url: /index.html
 aside: |
  Since 1952, the Community League of the Heights - CLOTH has been dedicated to the improvement of the Southern Washington Heights area. Our mission encompasses advocacy, organizing, and providing of services related to decent affordable housing, education, health, youth services, and neighborhood improvement.
 

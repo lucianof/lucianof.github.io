@@ -2,9 +2,9 @@
 layout: services
 parent: services
 title: Freshmen Leadership Initiative Program
-language: en
-es:
- url: /services/freshmen_leadership.es.html
+language: es
+en:
+ url: /services/freshmen_leadership.html
 top_image: /assets/img/houses.jpg
 ---
 

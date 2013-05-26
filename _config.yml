@@ -1,3 +1,9 @@
 safe: true
 google_analytics_key: UA-XXX-X
 facebook_url: https://www.facebook.com/pages/Community-League-of-the-Heights-Cloth/111001935601500
+youtube_url: http://www.youtube.com/
+index:
+ en:
+  url: index.html
+ es:
+  url: index.es.html

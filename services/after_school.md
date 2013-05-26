@@ -1,9 +1,11 @@
 ---
 layout: services
+parent: services
 title: Educational/After School Program
-category: services
+language: en
+es:
+ url: /services/after_school.es.html
 top_image: /assets/img/houses.jpg
-
 ---
 
 The Vision for the After School Program is to engage students in learning, by providing comprehensive educational opportunities and experiences, ensure their success in school, and provide an intellectual foundation to succeed in their workplace and in their life.

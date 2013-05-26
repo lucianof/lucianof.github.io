@@ -31,7 +31,7 @@
 		<div class="row">
 			<div class="span7" id="header">
 				<div id="logotype">
-					<a href="/">
+					<a href="/{{ site.index[page.language].url }}">
 						<img src="/assets/img/logotype.gif" alt="Community League Of The Heights">
 					</a>
 				</div>
@@ -42,53 +42,32 @@
 					<input id="donate" type="image" src="/assets/img/btn_donate.jpg" border="0" name="submit" alt="Donate via PayPal">
 					<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
 					</form>
-					<a id="youtube" title="Youtube"></a>
+					<a id="youtube" title="Youtube" href="{{ site.youtube_url}}"></a>
 					<a id="facebook" title="Facebook" href="{{ site.facebook_url}}"></a>
 					<div id="language">
-						<a href="{{ page.link_en }}" id="en" title="English">English</a>
-						<a href="{{ page.link_es }}" id="es" title="Spanish">Spanish</a>
+						<a href="{% if page.language == 'en' %} {{ page.url }} {% else %} {{ page.en.url }} {% endif %}" id="en" {% if page.language == 'en' %}class="current"{% endif%} title="English">English</a>
+						<a href="{% if page.language == 'es' %} {{ page.url }} {% else %} {{ page.es.url }} {% endif %}" id="es" {% if page.language == 'es' %}class="current"{% endif%} title="Español">Español</a>
 					</div>
 				</div>
 			</div>
 		</div>
 		<div class="row" id="navbar">
 			<div class="span2">
-				<a href="/" id="logo">
-					<img src="/assets/img/cloth_logo.png" alt="CLOTH">
+				<a href="/{{ site.index[page.language].url }}" id="logo">
+					<img src="/assets/img/cloth_logo.png" alt="{{ site.index[page.language].title }}">
 				</a>
 			</div>
 			<div class="span5">
 				<ul id="nav" class="inline {{ page.category }}">
-					<li>
-						<a href="/about.html" class="about">
-							About us
-						</a>
-					</li>
-					<li>
-						<a href="/services.html" class="services">
-							Services
-						</a>
-					</li>
-					<li>
-						<a href="/partners.html" class="partners">
-							Partners
-						</a>
-					</li>
-					<li>
-						<a href="/events.html" class="events">
-							Events
-						</a>
-					</li>
-					<li>
-						<a href="/gallery.html" class="gallery">
-							Gallery
-						</a>
-					</li>
-					<li>
-						<a href="/contact.html" class="contact">
-							Contact
-						</a>
-					</li>
+					{% for sort_order in (1..10) %}{% for p in site.pages %}{% if p.sort_order == sort_order %}
+						{% if p.language == page.language and p.parent == nil %}
+						<li>
+							<a href="{{ p.url }}" class="{{ p.category }}">
+								{{ p.title }}
+							</a>
+						</li>
+						{% endif %}
+					{% endif %}{% endfor %}{% endfor %}
 				</ul>
 			</div>
 		</div>

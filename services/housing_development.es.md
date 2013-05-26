@@ -2,9 +2,9 @@
 layout: services
 parent: services
 title: Housing Development
-language: en
-es:
- url: /services/housing_development.es.html
+language: es
+en:
+ url: /services/housing_development.html
 top_image: /assets/img/houses.jpg
 ---
 

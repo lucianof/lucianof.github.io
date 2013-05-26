@@ -116,7 +116,8 @@ h1{
 	text-transform: uppercase;
 	text-decoration: none;
 }
-#language a:hover {
+#language a:hover,
+#language a.current {
 	background-color: #90696a;
 }
 
@@ -173,12 +174,9 @@ h1{
 	color: #000000;
 }
 
-.photos {
-	overflow: hidden;
-}
-
-.photos img {
-	max-width: none;
+#content ul{
+	list-style-type: none;
+	margin: 0;
 }
 
 #content .left > div,
@@ -221,6 +219,42 @@ h1{
   }
 }
 
+/*************************************
+** HOME PAGE
+**************************************/
+.photos {
+	overflow: hidden;
+}
+
+.photos img {
+	max-width: none;
+}
+
+/*************************************
+** SERVICES PAGES
+**************************************/
+#content.services .left li {
+	margin-top: 10px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+/*************************************
+** PARTNERS PAGE
+**************************************/
+#content.partners .right li {
+	margin-top: 10px;
+}
+
+#content.partners .right a {
+	text-transform: uppercase;
+	color: #185E46;
+	font-weight: bold;
+}
+
+/*************************************
+** CONTACT PAGE
+**************************************/
 #content.contact .topimage {
 	padding-top: 130px;
 }
@@ -243,17 +277,6 @@ h1{
 }
 #content.contact table td{
 	padding: 2px 3px;
-}
-
-#content ul{
-	list-style-type: none;
-	margin: 0;
-}
-
-#content.services .left li {
-	margin-top: 10px;
-	text-transform: uppercase;
-	font-weight: bold;
 }
 
 /*************************************

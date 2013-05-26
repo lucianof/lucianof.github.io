@@ -2,10 +2,10 @@
 layout: page
 category: about
 sort_order: 1
-title: About us
-language: en
-es:
- url: /about.es.html
+title: Acerca de Nosotros
+language: es
+en:
+ url: /about.html
 aside: |
  <a href="assets/pdf/brochure.pdf" class="download pdf">Download Brochure [PDF]</a>
 aside_image: assets/img/ms_lucille_bulger.jpg
