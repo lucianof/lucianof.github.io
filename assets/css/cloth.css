@@ -6,17 +6,6 @@ h1, h2, h3, h4, h5{
 	text-transform: uppercase;
 	margin: 20px 0 5px 0;
 }
-#content .span5 h1{
-	background-color: #F28143;
-	color: #000000;
-	margin: 0px;
-	border-bottom: 5px solid white;
-	padding: 10px 0 10px 5px;
-}
-#content .span5{
-	margin-left: 0px;
-	width: 100%;
-}
 
 .left {
 	width: 306px;
@@ -25,6 +14,12 @@ h1, h2, h3, h4, h5{
 .right {
 	width: 649px;
 }
+
+#content .left > div,
+#content .right > div {
+	padding: 5px 25px 15px 25px;
+}
+
 @media (min-width: 1200px) {
 	.right {
 		width: 889px;
@@ -42,6 +37,12 @@ h1, h2, h3, h4, h5{
 	}
 	.left {
 		border-bottom: 5px solid white;
+	}
+	#content .left > div {
+		padding: 5px 5px 15px 5px;
+	}
+	#content .right > div {
+		padding: 0px;
 	}
 }
 
@@ -213,9 +214,17 @@ h1, h2, h3, h4, h5{
 	color: #000000;
 }
 
-#content .left > div,
-#content .right > div {
-	padding: 5px 25px 15px 25px;
+#content .span5 h1{
+	background-color: #F28143;
+	color: #000000;
+	margin: 0px;
+	border-bottom: 5px solid white;
+	padding: 10px 0 10px 5px;
+}
+
+#content .span5{
+	margin-left: 0px;
+	width: 100%;
 }
 
 #content a {
