@@ -1,0 +1,64 @@
+#content .span5 h1{
+	background: none;
+}
+
+/*************************************
+** HEADER
+**************************************/
+#header_bg {
+	display: none;
+}
+
+#header {
+	display: none;
+}
+
+/*************************************
+** NAVIGATION
+**************************************/
+#navbar {
+	border: none;
+}
+a#logo[href]:after {
+	content: "";
+}
+#logo {
+	margin: 20px;
+}
+
+#nav {
+	display: none;
+}
+
+#content .left,
+#content .right {
+	padding-top: 0px !important;
+	padding-bottom: 0px !important;
+	height: auto !important;
+}
+
+#content .left a[href]:after {
+	content: "";
+}
+
+#content .right img {
+	padding-bottom: 20px;
+}
+
+#content.services .left {
+	display: none;
+}
+
+#content.contact a[href]:after {
+	content: "";
+}
+
+/*************************************
+** FOOTER
+**************************************/
+#footer {
+	border: none;
+}
+#footer2 {
+	display: none;
+}
