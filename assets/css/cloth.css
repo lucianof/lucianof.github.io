@@ -71,7 +71,7 @@ h1, h2, h3, h4, h5{
 
 #header {
 	height: 31px;
-	background-color: #F28143;
+	background-color: #F17F00;
 	color: #FFFFFF;
 	position: relative;
 }
@@ -106,7 +106,6 @@ h1, h2, h3, h4, h5{
 	display:none;
   }
   #header, #header_bg, #header_bg2 {
-	/*border-right: 5px solid white;*/
 	background: #330d0c;
   }
   #toolbar {
@@ -148,7 +147,7 @@ h1, h2, h3, h4, h5{
 }
 
 #language {
-	color: #FFFFFF;
+	color: white;
 	font-size: 11px;
 }
 
@@ -157,7 +156,7 @@ h1, h2, h3, h4, h5{
 	float: left;
 	padding: 6px 5px 8px 5px;
 	height: 17px;
-	color: #FFFFFF;
+	color: white;
 	text-transform: uppercase;
 	text-decoration: none;
 }
@@ -170,7 +169,7 @@ h1, h2, h3, h4, h5{
 ** NAVIGATION
 **************************************/
 #navbar {
-	background-color: #FFFFFF;
+	background-color: white;
 	border-bottom: 2px solid #FF6612;
 }
 
@@ -214,13 +213,13 @@ h1, h2, h3, h4, h5{
 }
 
 #content .left {
-	background-color: #F28143;
-	color: #000000;
+	background-color: #F17F00;
+	color: black;
 }
 
 #content .span5 h1{
-	background-color: #F28143;
-	color: #000000;
+	background-color: #F17F00;
+	color: black;
 	margin: 0px;
 	border-bottom: 5px solid white;
 	padding: 10px 0 10px 5px;
@@ -232,7 +231,7 @@ h1, h2, h3, h4, h5{
 }
 
 #content a {
-	color: #000000;
+	color: black;
 }
 
 #content ul{
@@ -306,7 +305,7 @@ h1, h2, h3, h4, h5{
 #content.services .right address {
 	font-weight: bold;
 	text-transform: uppercase;
-	border-left: 5px solid #ff6612;
+	border-left: 5px solid #FF6612;
 	padding-left: 10px;
 }
 #content.services .right li {
@@ -315,7 +314,7 @@ h1, h2, h3, h4, h5{
 }
 #content.services .right table {
 	margin-bottom: 5px;
-	border-left: 5px solid #ff6612;
+	border-left: 5px solid #FF6612;
 }
 #content.services .right td {
 	padding: 3px 10px;
