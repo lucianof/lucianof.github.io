@@ -110,6 +110,9 @@ h1, h2, h3, h4, h5{
 	background: #330d0c;
   }
   #toolbar {
+	position: inherit;
+	margin-left: auto;
+	margin-right: auto;
 	border: none;
   }
 }
@@ -119,8 +122,9 @@ h1, h2, h3, h4, h5{
 #toolbar > form {
 	display: block;
 	float: left;
-	height: inherit;
+	height: 31px;
 	margin-left:10px;
+	margin-bottom: 0px;
 }
 
 #donate{
@@ -273,6 +277,23 @@ h1, h2, h3, h4, h5{
 }
 
 /*************************************
+** ABOUT US PAGE
+**************************************/
+#content.about th {
+	font-weight: normal;
+	text-align: left;
+}
+#content.about table {
+	text-transform: uppercase;
+}
+#content.about td {
+	padding: 3px 10px 0 0;
+}
+#content.about td:first-child {
+	font-weight: bold;
+}
+
+/*************************************
 ** SERVICES PAGES
 **************************************/
 #content.services .left li {
@@ -288,8 +309,10 @@ h1, h2, h3, h4, h5{
 	border-left: 5px solid #ff6612;
 	padding-left: 10px;
 }
-
-
+#content.services .right li {
+	margin-left: 18px;
+	list-style-type: square;
+}
 #content.services .right table {
 	margin-bottom: 5px;
 	border-left: 5px solid #ff6612;

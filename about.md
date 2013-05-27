@@ -24,13 +24,16 @@ From this effort CLOTH began to provide a volunteer-run, educational after schoo
 Since its inception, CLOTH has grown from a volunteer agency to a multi-faceted organization. CLOTH addresses a wide range of community needs, including affordable housing, economic development, health education, and after school and summer programs.
 
 ### Board of Directors
-- J. Loren Russell, *President*
-- Leo Baez, *Vice President*
-- Devaughn D. Fowlkes, *Treasurer*
-- Vivian Weeks, *Asst. Treasurer*
-- Ruth C. Johnson
-- Joanne Toran
-- Gregory Sumpter
-- Jessica Villaplana
-- April  S. Bulger
-- Luvon Roberson
+
+| Name                  | Position                | Member since |
+|:----------------------|:------------------------|:-------------|
+| J. Loren Russell      | *Chairperson/President* | 2005         |
+| Leo Baez              | *Vice President*        | 2007         |
+| Devaughn D. Fowlkes   | *Treasurer*             | 2012         |
+| Vivian Weeks          | *Asst. Treasurer*       | 1974         |
+| Ruth C. Johnson       |                         | 2011         |
+| Joanne Toran          |                         | 2007         |
+| Gregory Sumpter       |                         | 2007         |
+| Jessica Villaplana    |                         | 2010         |
+| April  S. Bulger      |                         | 2011         |
+| Luvon Roberson        |                         | 2012         |
