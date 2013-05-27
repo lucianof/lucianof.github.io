@@ -362,8 +362,8 @@ h1, h2, h3, h4, h5{
 	font-size: 11px;
 }
 #content.contact a{
-	font-weight: bold;
 	color: #185E46;
+	font-weight: normal;
 }
 #content.contact table{
 	margin: 15px 0;
@@ -371,6 +371,9 @@ h1, h2, h3, h4, h5{
 #content.contact table td{
 	padding: 2px 3px;
 	vertical-align: top;
+}
+#content.contact table td:first-child {
+	font-weight: bold;
 }
 
 /*************************************
