@@ -27,7 +27,7 @@ Since its inception, CLOTH has grown from a volunteer agency to a multi-faceted 
 
 | Name                  | Position                | Member since |
 |:----------------------|:------------------------|:-------------|
-| J. Loren Russell      | *Chairperson/President* | 2005         |
+| J. Loren Russell      | *Chairperson / President* | 2005         |
 | Leo Baez              | *Vice President*        | 2007         |
 | Devaughn D. Fowlkes   | *Treasurer*             | 2012         |
 | Vivian Weeks          | *Asst. Treasurer*       | 1974         |
